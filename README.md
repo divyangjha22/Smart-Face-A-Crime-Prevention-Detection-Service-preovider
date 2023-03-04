@@ -24,7 +24,7 @@ Financial services: It can be used in banks and financial organisations(Online b
 
 # Smart Face: A Crime Prevention & Detection Service Provider
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](6.jpg)
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
