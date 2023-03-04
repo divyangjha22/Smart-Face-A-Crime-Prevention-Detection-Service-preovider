@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: antiquewhite;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 38px;
+}
+
+.xlarge-font {
+  font-size: 50px
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+#title{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#second{
+  padding: 22px 2px;
+  margin: 1px 2px;
+}
+#third{
+  padding: 23px 2px;
+}
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center" id="title">
+  <h2>SmartFace: Reliable Facial Recognition For Personal Identification</h2>
+  
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h3 class="large-font"><b>What is facial recognition?</b></h1>
+      <p> Facial recognition is a way of identifying or confirming an individual’s identity using their face. Facial recognition systems can be used to identify people in photos, videos, or in real-time.
+
+        Facial recognition is a category of biometric security. Other forms of biometric software include voice recognition, fingerprint recognition, and eye retina or iris recognition. The technology is mostly used for security and law enforcement, though there is increasing interest in other areas of use.</p>
+    </div>
+    <div class="column-33">
+        <img id="first" src="11.jpg" width="400" height="550">
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img id="second" src="mid.jpg"width="335" height="471">
+      <img id="second" src="mid2.jpg"width="335" height="471">
+      <img id="second" src="th1.jpg"width="335" height="471">
+
+    </div>
+    <div class="column-66">
+      <h1 class="large-font" style="color:red;"><b>How does facial recognition work?</b></h1>
+      <p>
+        Many people are familiar with face recognition technology through the FaceID used to unlock iPhones (however, this is only one application of face recognition). Typically, facial recognition does not rely on a massive database of photos to determine an individual’s identity — it simply identifies and recognizes one person as the sole owner of the device, while limiting access to others.
+
+        Beyond unlocking phones, facial recognition works by matching the faces of people walking past special cameras, to images of people on a watch list. The watch lists can contain pictures of anyone, including people who are not suspected of any wrongdoing, and the images can come from anywhere — even from our social media accounts. Facial technology systems can vary, but in general, they tend to operate as follows:
+        
+        <br><span style="font-size:20px">Step 1: Face detection</span><br>
+        The camera detects and locates the image of a face, either alone or in a crowd. The image may show the person looking straight ahead or in profile.
+        
+       <br><span style="font-size:20px">Step 2: Face analysis</span><br>
+        Next, an image of the face is captured and analyzed. Most facial recognition technology relies on 2D rather than 3D images because it can more conveniently match a 2D image with public photos or those in a database. The software reads the geometry of your face. Key factors include the distance between your eyes, the depth of your eye sockets, the distance from forehead to chin, the shape of your cheekbones, and the contour of the lips, ears, and chin. The aim is to identify the facial landmarks that are key to distinguishing your face.
+        
+        <br><span style="font-size:20px">Step 3: Converting the image to data</span><br>
+        The face capture process transforms analog information (a face) into a set of digital information (data) based on the person's facial features. Your face's analysis is essentially turned into a mathematical formula. The numerical code is called a faceprint. In the same way that thumbprints are unique, each person has their own faceprint.
+        <br><span style="font-size:20px">Step 4: Finding a match</span><br>
+        Your faceprint is then compared against a database of other known faces. For example, the FBI has access to up to 650 million photos, drawn from various state databases. On Facebook, any photo tagged with a person’s name becomes a part of Facebook's database, which may also be used for facial recognition. If your faceprint matches an image in a facial recognition database, then a determination is made.
+        
+        Of all the biometric measurements, facial recognition is considered the most natural. Intuitively, this makes sense, since we typically recognize ourselves and others by looking at faces, rather than thumbprints and irises. It is estimated that over half of the world's population is touched by facial recognition technology regularly.
+    </p>
+    </div>
+  </div>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>How facial recognition is used</b></h1>
+   <p>
+    The technology is used for a variety of purposes. These include:
+<h4 style="font-size:20px">Unlocking phones</h4>
+    Various phones, including the most recent iPhones, use face recognition to unlock the device. The technology offers a powerful way to protect personal data and ensures that sensitive data remains inaccessible if the phone is stolen. Apple claims that the chance of a random face unlocking your phone is about one in 1 million.
+    
+    <h4 style="font-size:20px">Law enforcement</h4>
+    Facial recognition is regularly being used by law enforcement. According to this NBC report, the technology is increasing amongst law enforcement agencies within the US, and the same is true in other countries. Police collects mugshots from arrestees and compare them against local, state, and federal face recognition databases. Once an arrestee’s photo has been taken, their picture will be added to databases to be scanned whenever police carry out another criminal search.
+    
+    Also, mobile face recognition allows officers to use smartphones, tablets, or other portable devices to take a photo of a driver or a pedestrian in the field and immediately compare that photo against to one or more face recognition databases to attempt an identification.
+    
+    <h4 style="font-size:20px">Airports and border control</h4>
+    Facial recognition has become a familiar sight at many airports around the world. Increasing numbers of travellers hold biometric passports, which allow them to skip the ordinarily long lines and instead walk through an automated ePassport control to reach the gate faster. Facial recognition not only reduces waiting times but also allows airports to improve security. The US Department of Homeland Security predicts that facial recognition will be used on 97% of travellers by 2023. As well as at airports and border crossings, the technology is used to enhance security at large-scale events such as the Olympics.
+    
+    <h4 style="font-size:20px">Applications of face recognition.</h4>
+    
+    <h4 style="font-size:20px">Finding missing persons</h4>
+    Facial recognition can be used to find missing persons and victims of human trafficking. Suppose missing individuals are added to a database. In that case, law enforcement can be alerted as soon as they are recognized by face recognition — whether it is in an airport, retail store, or other public space.
+    
+    <h4 style="font-size:20px">Reducing retail crime</h4>
+    Facial recognition is used to identify when known shoplifters, organized retail criminals, or people with a history of fraud enter stores. Photographs of individuals can be matched against large databases of criminals so that loss prevention and retail security professionals can be notified when shoppers who potentially represent a threat enter the store.
+   </p>
+     
+    </div>
+    <div class="column-33">
+        <img id="third" src="12.jpg" width="335" height="471" >
+        <img id="third" src="th4.jpg" width="335" height="471" >
+
+        <img id="third" src="mid3.jpg" width="335" height="471" >
+        <img id="third" src="th3.jpg" width="335" height="471" >
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
